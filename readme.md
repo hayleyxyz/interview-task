@@ -2,7 +2,7 @@
 
 ## Installing
 
-Clone the project and navigate a terminal to the project directory.
+These steps assume you already have php and composer installed.
 
 Then install the composer dependencies:
 
