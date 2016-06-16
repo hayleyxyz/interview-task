@@ -4,7 +4,7 @@
 
 These steps assume you already have php and composer installed.
 
-Then install the composer dependencies:
+Install the composer dependencies:
 
 ```
 $ composer install
