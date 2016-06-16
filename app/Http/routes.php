@@ -11,6 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [ 'as' => 'home', 'uses' => 'HomeController@getHome' ]);
+Route::post('/submit', [ 'as' => 'submit', 'uses' => 'HomeController@postSubmit' ]);
